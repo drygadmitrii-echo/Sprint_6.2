@@ -19,6 +19,19 @@ venv/
 *.swp
 *.swo
 
-# Allure (optional - remove if you want to keep reports in git)
+# System
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Drivers (если они большие)
+drivers/
+
+# Allure (раскомментируйте если хотите игнорировать отчеты)
 # allure_result/
 # allure_reports/
